@@ -1,0 +1,302 @@
+AGGREGATE_mongodb,Data Reads
+ALTER ACCOUNT_snowflake,Access Changes
+ALTER AGGREGATE_postgresql,Schema Changes
+ALTER COLLATION_postgresql,Privileged Commands
+ALTER COLUMN_postgresql,Schema Changes
+ALTER CONVERSION_postgresql,Privileged Commands
+ALTER DATABASE_postgresql,Repo Changes
+ALTER DATABASE_sqlserver,Repo Changes
+ALTER DOMAIN_postgresql,Schema Changes
+ALTER EVENT TRIGGER_postgresql,Privileged Commands
+ALTER EXTENSION_postgresql,Privileged Commands
+ALTER FOREIGN DATA WRAPPER_postgresql,Privileged Commands
+ALTER FOREIGN TABLE_postgresql,Schema Changes
+ALTER FUNCTION_postgresql,Privileged Commands
+ALTER GROUP_postgresql,Access Changes
+ALTER INDEX_postgresql,Schema Changes
+ALTER INTEGRATION_snowflake,Access Changes
+ALTER LOGFILE GROUP_mariadb,Privileged Commands
+ALTER LOGFILE GROUP_mysql,Privileged Commands
+ALTER MATERIALIZED VIEW_postgresql,View Changes
+ALTER OPERATOR CLASS_postgresql,Privileged Commands
+ALTER OPERATOR FAMILY_postgresql,Privileged Commands
+ALTER OPERATOR_postgresql,Privileged Commands
+ALTER PROCEDURE_postgresql,Privileged Commands
+ALTER PUBLICATION_postgresql,Schema Changes
+ALTER ROLE_postgresql,Access Changes
+ALTER ROUTINE_postgresql,Privileged Commands
+ALTER RULE_postgresql,Schema Changes
+ALTER SCHEMA_postgresql,Schema Changes
+ALTER SEQUENCE_postgresql,Schema Changes
+ALTER SERVER_postgresql,Privileged Commands
+ALTER STATISTICS_postgresql,Schema Changes
+ALTER SUBSCRIPTION_postgresql,Schema Changes
+ALTER SYSTEM_postgresql,Privileged Commands
+ALTER TABLESPACE_postgresql,Privileged Commands
+ALTER TABLE_denodo,Schema Changes
+ALTER TABLE_dremio,Schema Changes
+ALTER TABLE_mariadb,Schema Changes
+ALTER TABLE_mysql,Schema Changes
+ALTER TABLE_oracle,Schema Changes
+ALTER TABLE_postgresql,Schema Changes
+ALTER TABLE_redshift,Schema Changes
+ALTER TABLE_snowflake,Schema Changes
+ALTER TABLE_sqlserver,Schema Changes
+ALTER TEXT SEARCH CONFIGURATION_postgresql,Privileged Commands
+ALTER TEXT SEARCH DICTIONARY_postgresql,Privileged Commands
+ALTER TEXT SEARCH PARSER_postgresql,Privileged Commands
+ALTER TEXT SEARCH TEMPLATE_postgresql,Privileged Commands
+ALTER TRIGGER_postgresql,Privileged Commands
+ALTER TYPE_postgresql,Privileged Commands
+ALTER USER_mariadb,Access Changes
+ALTER USER_mysql,Access Changes
+ALTER USER_postgresql,Access Changes
+ALTER USER_snowflake,Access Changes
+ALTER USER_sqlserver,Access Changes
+ALTER VIEW_postgresql,View Changes
+ANALYZE_postgresql,Data Reads
+BACKUP_postgresql,Privileged Commands
+BEGIN TRANSACTION_postgresql,Query Flow Operation
+BINLOG_mariadb,Privileged Commands
+BINLOG_mysql,Privileged Commands
+CHECKPOINT_postgresql,Privileged Commands
+COLLMOD_mongodb,Schema Changes
+COMMENT ON COLUMN_postgresql,Schema Changes
+COMMENT ON DATABASE_postgresql,Repo Changes
+COMMENT ON TABLE_postgresql,Schema Changes
+COMMIT TRANSACTION_postgresql,Query Flow Operation
+COPY OBJECT_s3,Data Changes
+COPY_postgresql,Data Changes
+CREATE ACCESS METHOD_postgresql,Privileged Commands
+CREATE AGGREGATE_postgresql,Privileged Commands
+CREATE BUCKET_s3,Schema Changes
+CREATE CAST_postgresql,Privileged Commands
+CREATE COLLATION_postgresql,Privileged Commands
+CREATE COLLECTION_mongodb,Schema Changes
+CREATE CONVERSION_postgresql,Privileged Commands
+CREATE DATABASE_postgresql,Repo Changes
+CREATE DATABASE_sqlserver,Repo Changes
+CREATE DOMAIN_postgresql,Schema Changes
+CREATE EVENT TRIGGER_postgresql,Privileged Commands
+CREATE EXTENSION_postgresql,Privileged Commands
+CREATE EXTERNAL TABLE_postgresql,Schema Changes
+CREATE FOREIGN DATA WRAPPER_postgresql,Privileged Commands
+CREATE FOREIGN TABLE_postgresql,Schema Changes
+CREATE FUNCTION_postgresql,Privileged Commands
+CREATE GROUP_postgresql,Access Changes
+CREATE LANGUAGE_postgresql,Privileged Commands
+CREATE LOGIN_sqlserver,Access Changes
+CREATE MATERIALIZED VIEW_postgresql,View Changes
+CREATE MULTIPART UPLOAD_s3,Data Changes
+CREATE OPERATOR CLASS_postgresql,Privileged Commands
+CREATE OPERATOR FAMILY_postgresql,Privileged Commands
+CREATE OPERATOR_postgresql,Privileged Commands
+CREATE PROCEDURE_postgresql,Privileged Commands
+CREATE PUBLICATION_postgresql,Schema Changes
+CREATE ROLE_mongodb,Access Changes
+CREATE ROLE_postgresql,Access Changes
+CREATE ROUTINE_postgresql,Privileged Commands
+CREATE RULE_postgresql,Schema Changes
+CREATE SCHEMA_postgresql,Schema Changes
+CREATE SEQUENCE_postgresql,Schema Changes
+CREATE SERVER_postgresql,Privileged Commands
+CREATE SUBSCRIPTION_postgresql,Schema Changes
+CREATE TABLE AS_dremio,Schema Changes
+CREATE TABLESPACE_postgresql,Privileged Commands
+CREATE TABLE_denodo,Schema Changes
+CREATE TABLE_mariadb,Schema Changes
+CREATE TABLE_mysql,Schema Changes
+CREATE TABLE_oracle,Schema Changes
+CREATE TABLE_postgresql,Schema Changes
+CREATE TABLE_redshift,Schema Changes
+CREATE TABLE_snowflake,Schema Changes
+CREATE TABLE_sqlserver,Schema Changes
+CREATE TEMPORARY TABLE_postgresql,Schema Changes
+CREATE TEMPORARY VIEW_postgresql,View Changes
+CREATE TEXT SEARCH CONFIGURATION_postgresql,Privileged Commands
+CREATE TEXT SEARCH DICTIONARY_postgresql,Privileged Commands
+CREATE TEXT SEARCH PARSER_postgresql,Privileged Commands
+CREATE TEXT SEARCH TEMPLATE_postgresql,Privileged Commands
+CREATE TRANSFORM_postgresql,Privileged Commands
+CREATE TRIGGER_postgresql,Privileged Commands
+CREATE TYPE_postgresql,Privileged Commands
+CREATE USER MAPPING_postgresql,Access Changes
+CREATE USER_mongodb,Access Changes
+CREATE USER_postgresql,Access Changes
+CREATE USER_sqlserver,Access Changes
+CREATE VIEW_mongodb,View Changes
+CREATE VIEW_postgresql,View Changes
+CREATE_mongodb,Schema Changes
+DEALLOCATE_postgresql,Query Flow Operation
+DECLARE_postgresql,Query Flow Operation
+DELETE BUCKET POLICY_s3,Access Changes
+DELETE BUCKET_s3,Schema Changes
+DELETE FROM_postgresql,Data Changes
+DELETE OBJECTS_s3,Data Changes
+DELETE OBJECT_s3,Data Changes
+DELETE_denodo,Data Changes
+DELETE_mariadb,Data Changes
+DELETE_mongodb,Data Changes
+DELETE_mysql,Data Changes
+DELETE_oracle,Data Changes
+DELETE_postgresql,Data Changes
+DELETE_redshift,Data Changes
+DELETE_snowflake,Data Changes
+DELETE_sqlserver,Data Changes
+DISCARD ALL_postgresql,Query Flow Operation
+DISCARD ROWS_postgresql,Query Flow Operation
+DISCARD_postgresql,Query Flow Operation
+DROP AGGREGATE_postgresql,Privileged Commands
+DROP ALL ROLES FROM DATABASE_mongodb,Access Changes
+DROP CAST_postgresql,Privileged Commands
+DROP COLLATION_postgresql,Privileged Commands
+DROP COLLECTION_mongodb,Schema Changes
+DROP COLUMN_postgresql,Schema Changes
+DROP CONVERSION_postgresql,Privileged Commands
+DROP DATABASE_postgresql,Repo Changes
+DROP DATABASE_sqlserver,Repo Changes
+DROP DOMAIN_postgresql,Schema Changes
+DROP EVENT TRIGGER_postgresql,Privileged Commands
+DROP EXTENSION_postgresql,Privileged Commands
+DROP FOREIGN DATA WRAPPER_postgresql,Privileged Commands
+DROP FOREIGN TABLE_postgresql,Schema Changes
+DROP FUNCTION_postgresql,Privileged Commands
+DROP GROUP_postgresql,Access Changes
+DROP INDEX_postgresql,Schema Changes
+DROP LANGUAGE_postgresql,Privileged Commands
+DROP MATERIALIZED VIEW_postgresql,View Changes
+DROP OPERATOR CLASS_postgresql,Privileged Commands
+DROP OPERATOR FAMILY_postgresql,Privileged Commands
+DROP OPERATOR_postgresql,Privileged Commands
+DROP PROCEDURE_postgresql,Privileged Commands
+DROP PUBLICATION_postgresql,Schema Changes
+DROP ROLE_mongodb,Access Changes
+DROP ROLE_postgresql,Access Changes
+DROP ROUTINE_postgresql,Privileged Commands
+DROP RULE_postgresql,Schema Changes
+DROP SCHEMA_postgresql,Schema Changes
+DROP SEQUENCE_postgresql,Schema Changes
+DROP SERVER_postgresql,Privileged Commands
+DROP STATISTICS_postgresql,Schema Changes
+DROP SUBSCRIPTION_postgresql,Schema Changes
+DROP TABLESPACE_postgresql,Privileged Commands
+DROP TABLE_denodo,Schema Changes
+DROP TABLE_dremio,Schema Changes
+DROP TABLE_mariadb,Schema Changes
+DROP TABLE_mysql,Schema Changes
+DROP TABLE_oracle,Schema Changes
+DROP TABLE_postgresql,Schema Changes
+DROP TABLE_redshift,Schema Changes
+DROP TABLE_snowflake,Schema Changes
+DROP TABLE_sqlserver,Schema Changes
+DROP TEXT SEARCH CONFIGURATION_postgresql,Privileged Commands
+DROP TEXT SEARCH DICTIONARY_postgresql,Privileged Commands
+DROP TEXT SEARCH PARSER_postgresql,Privileged Commands
+DROP TEXT SEARCH TEMPLATE_postgresql,Privileged Commands
+DROP TRANSFORM_postgresql,Privileged Commands
+DROP TRIGGER_postgresql,Privileged Commands
+DROP TYPE_postgresql,Privileged Commands
+DROP USER MAPPING_postgresql,Access Changes
+DROP USER_mongodb,Access Changes
+DROP USER_postgresql,Access Changes
+DROP USER_sqlserver,Access Changes
+DROP VIEW_mongodb,View Changes
+DROP VIEW_postgresql,View Changes
+DROP_mongodb,Schema Changes
+EXECUTE_postgresql,Query Flow Operation
+EXPLAIN_postgresql,Data Reads
+FETCH_postgresql,Data Reads
+FIND AND MODIFY_mongodb,Data Changes
+FIND_mongodb,Data Reads
+FLUSH_mariadb,Privileged Commands
+FLUSH_mysql,Privileged Commands
+GET OBJECT_s3,Data Reads
+GETMORE_mongodb,Data Reads
+GRANT ROLES TO USER_mongodb,Access Changes
+GRANT_denodo,Access Changes
+GRANT_dremio,Access Changes
+GRANT_mariadb,Access Changes
+GRANT_mysql,Access Changes
+GRANT_oracle,Access Changes
+GRANT_postgresql,Access Changes
+GRANT_redshift,Access Changes
+GRANT_snowflake,Access Changes
+GRANT_sqlserver,Access Changes
+INSERT_denodo,Data Changes
+INSERT_mariadb,Data Changes
+INSERT_mongodb,Data Changes
+INSERT_mysql,Data Changes
+INSERT_oracle,Data Changes
+INSERT_postgresql,Data Changes
+INSERT_redshift,Data Changes
+INSERT_snowflake,Data Changes
+INSERT_sqlserver,Data Changes
+KILL CURSORS_mongodb,Privileged Commands
+KILL OP_mongodb,Privileged Commands
+KILL_mariadb,Privileged Commands
+KILL_mysql,Privileged Commands
+LIST BUCKETS_s3,Data Reads
+LIST OBJECTS V2_s3,Data Reads
+LIST OBJECTS_s3,Data Reads
+LISTEN_postgresql,Query Flow Operation
+LOGIN_sqlserver,Access Changes
+MAPREDUCE_mongodb,Data Changes
+MOVE_postgresql,Data Reads
+NOTIFY_postgresql,Query Flow Operation
+PLEASE SEE THE LIST BELOW_s3,Privileged Commands
+PREPARE_postgresql,Query Flow Operation
+PUT BUCKET ACL_s3,Access Changes
+PUT BUCKET POLICY_s3,Access Changes
+PUT OBJECT ACL_s3,Access Changes
+PUT OBJECT_s3,Data Changes
+QUERY_mongodb,Data Reads
+RELEASE SAVEPOINT_postgresql,Query Flow Operation
+RENAME COLUMN_postgresql,Schema Changes
+RESET PERSIST_mariadb,Privileged Commands
+RESET PERSIST_mysql,Privileged Commands
+RESET_mariadb,Privileged Commands
+RESET_mysql,Privileged Commands
+RESET_postgresql,Privileged Commands
+RESTART_mariadb,Privileged Commands
+RESTART_mysql,Privileged Commands
+REVOKE ROLES FROM USER_mongodb,Access Changes
+REVOKE_denodo,Access Changes
+REVOKE_dremio,Access Changes
+REVOKE_mariadb,Access Changes
+REVOKE_mysql,Access Changes
+REVOKE_oracle,Access Changes
+REVOKE_postgresql,Access Changes
+REVOKE_redshift,Access Changes
+REVOKE_snowflake,Access Changes
+REVOKE_sqlserver,Access Changes
+ROLLBACK TRANSACTION TO SAVEPOINT_postgresql,Query Flow Operation
+ROLLBACK TRANSACTION_postgresql,Query Flow Operation
+SAVEPOINT_postgresql,Query Flow Operation
+SELECT OBJECT CONTENT_s3,Data Reads
+SELECT_denodo,Data Reads
+SELECT_dremio,Data Reads
+SELECT_mariadb,Data Reads
+SELECT_mysql,Data Reads
+SELECT_oracle,Data Reads
+SELECT_postgresql,Data Reads
+SELECT_redshift,Data Reads
+SELECT_snowflake,Data Reads
+SELECT_sqlserver,Data Reads
+SHUTDOWN_mariadb,Privileged Commands
+SHUTDOWN_mongodb,Privileged Commands
+SHUTDOWN_mysql,Privileged Commands
+UPDATE ROLE_mongodb,Access Changes
+UPDATE USER_mongodb,Access Changes
+UPDATE_denodo,Data Changes
+UPDATE_mariadb,Data Changes
+UPDATE_mongodb,Data Changes
+UPDATE_mysql,Data Changes
+UPDATE_oracle,Data Changes
+UPDATE_postgresql,Data Changes
+UPDATE_redshift,Data Changes
+UPDATE_snowflake,Data Changes
+UPDATE_sqlserver,Data Changes
+UPLOAD PART_s3,Data Changes
+sp_addextendedproperty_sqlserver,Schema Changes
+sp_dropuser_sqlserver,Access Changes
+sp_rename_sqlserver,Schema Changes

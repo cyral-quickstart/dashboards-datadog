@@ -1,0 +1,297 @@
+SELECT_postgresql,Select Data
+FETCH_postgresql,Select Data
+SELECT_mysql,Select Data
+SELECT_mariadb,Select Data
+SELECT_oracle,Select Data
+SELECT_sqlserver,Select Data
+FIND_mongodb,Select Data
+SELECT_dremio,Select Data
+SELECT_denodo,Select Data
+SELECT_redshift,Select Data
+SELECT_snowflake,Select Data
+LIST OBJECTS_s3,Select Data
+MOVE_postgresql,Select Data Bulk
+AGGREGATE_mongodb,Select Data Bulk
+LIST OBJECTS V2_s3,Select Data Bulk
+GETMORE_mongodb,Select Data
+GET OBJECT_s3,Select Data
+QUERY_mongodb,Export Data Bulk
+LIST BUCKETS_s3,Export Data Bulk
+ANALYZE_postgresql,Analyze Statistics
+SELECT OBJECT CONTENT_s3,Analyze Statistics
+EXPLAIN_postgresql,Explain
+INSERT_postgresql,Insert Data
+INSERT_mysql,Insert Data
+INSERT_mariadb,Insert Data
+INSERT_oracle,Insert Data
+INSERT_sqlserver,Insert Data
+INSERT_mongodb,Insert Data
+INSERT_denodo,Insert Data
+INSERT_redshift,Insert Data
+INSERT_snowflake,Insert Data
+PUT OBJECT_s3,Insert Data
+COPY OBJECT_s3,Insert Data
+CREATE MULTIPART UPLOAD_s3,Insert Data
+UPLOAD PART_s3,Insert Data
+UPDATE_postgresql,Update Data
+UPDATE_mysql,Update Data
+UPDATE_mariadb,Update Data
+UPDATE_oracle,Update Data
+UPDATE_sqlserver,Update Data
+UPDATE_mongodb,Update Data
+FIND AND MODIFY_mongodb,Update Data
+MAPREDUCE_mongodb,Update Data
+UPDATE_denodo,Update Data
+UPDATE_redshift,Update Data
+UPDATE_snowflake,Update Data
+DELETE_postgresql,Delete Data
+DELETE FROM_postgresql,Delete Data
+DELETE_mysql,Delete Data
+DELETE_mariadb,Delete Data
+DELETE_oracle,Delete Data
+DELETE_sqlserver,Delete Data
+DELETE_mongodb,Delete Data
+DELETE_denodo,Delete Data
+DELETE_redshift,Delete Data
+DELETE_snowflake,Delete Data
+DELETE OBJECT_s3,Delete Data
+DELETE OBJECTS_s3,Delete Data
+COPY_postgresql,Copy Data
+CREATE VIEW_postgresql,Create View
+CREATE MATERIALIZED VIEW_postgresql,Create View
+CREATE TEMPORARY VIEW_postgresql,Create View
+CREATE VIEW_mongodb,Create View
+ALTER VIEW_postgresql,Alter View
+ALTER MATERIALIZED VIEW_postgresql,Alter View
+DROP VIEW_postgresql,Drop View
+DROP MATERIALIZED VIEW_postgresql,Drop View
+DROP VIEW_mongodb,Drop View
+CREATE TABLE_postgresql,Create Table
+CREATE EXTERNAL TABLE_postgresql,Create Table
+CREATE TEMPORARY TABLE_postgresql,Create Table
+CREATE TABLE_mysql,Create Table
+CREATE TABLE_mariadb,Create Table
+CREATE TABLE_oracle,Create Table
+CREATE TABLE_sqlserver,Create Table
+CREATE TABLE AS_dremio,Create Table
+CREATE TABLE_denodo,Create Table
+CREATE TABLE_redshift,Create Table
+CREATE TABLE_snowflake,Create Table
+ALTER TABLE_postgresql,Alter Table
+ALTER RULE_postgresql,Alter Table
+CREATE RULE_postgresql,Alter Table
+DROP RULE_postgresql,Alter Table
+CREATE FOREIGN TABLE_postgresql,Alter Table
+ALTER TABLE_mysql,Alter Table
+ALTER TABLE_mariadb,Alter Table
+ALTER TABLE_oracle,Alter Table
+ALTER TABLE_sqlserver,Alter Table
+ALTER TABLE_dremio,Alter Table
+ALTER TABLE_denodo,Alter Table
+ALTER TABLE_redshift,Alter Table
+ALTER TABLE_snowflake,Alter Table
+DROP TABLE_postgresql,Delete Table
+DROP FOREIGN TABLE_postgresql,Delete Table
+DROP TABLE_mysql,Delete Table
+DROP TABLE_mariadb,Delete Table
+DROP TABLE_oracle,Delete Table
+DROP TABLE_sqlserver,Delete Table
+DROP TABLE_dremio,Delete Table
+DROP TABLE_denodo,Delete Table
+DROP TABLE_redshift,Delete Table
+DROP TABLE_snowflake,Delete Table
+sp_rename_sqlserver,Rename Table
+CREATE SCHEMA_postgresql,Create Schema
+ALTER SCHEMA_postgresql,Modify Schema
+ALTER INDEX_postgresql,Modify Schema
+ALTER SEQUENCE_postgresql,Modify Schema
+DROP SEQUENCE_postgresql,Modify Schema
+DROP INDEX_postgresql,Modify Schema
+CREATE SEQUENCE_postgresql,Modify Schema
+ALTER AGGREGATE_postgresql,Modify Schema
+ALTER COLUMN_postgresql,Modify Schema
+ALTER DOMAIN_postgresql,Modify Schema
+ALTER FOREIGN TABLE_postgresql,Modify Schema
+CREATE DOMAIN_postgresql,Modify Schema
+DROP COLUMN_postgresql,Modify Schema
+DROP DOMAIN_postgresql,Modify Schema
+RENAME COLUMN_postgresql,Modify Schema
+ALTER PUBLICATION_postgresql,Modify Schema
+ALTER STATISTICS_postgresql,Modify Schema
+ALTER SUBSCRIPTION_postgresql,Modify Schema
+CREATE PUBLICATION_postgresql,Modify Schema
+CREATE SUBSCRIPTION_postgresql,Modify Schema
+DROP PUBLICATION_postgresql,Modify Schema
+DROP STATISTICS_postgresql,Modify Schema
+DROP SUBSCRIPTION_postgresql,Modify Schema
+DROP SCHEMA_postgresql,Delete Schema
+COMMENT ON TABLE_postgresql,Annotate Schema
+COMMENT ON COLUMN_postgresql,Annotate Schema
+sp_addextendedproperty_sqlserver,Annotate Schema
+CREATE COLLECTION_mongodb,Create Collection
+COLLMOD_mongodb,Alter Collection
+DROP COLLECTION_mongodb,Delete Collection
+CREATE BUCKET_s3,Create Bucket
+DELETE BUCKET_s3,Delete Bucket
+BEGIN TRANSACTION_postgresql,Begin Transaction
+DEALLOCATE_postgresql,Cursor Operation
+DECLARE_postgresql,Variable Declaration
+DISCARD_postgresql,Clear Session State
+DISCARD ALL_postgresql,Clear Session State
+DISCARD ROWS_postgresql,Clear Session State
+EXECUTE_postgresql,Execute Stored Procedure
+LISTEN_postgresql,Listen
+NOTIFY_postgresql,Notify
+PREPARE_postgresql,Prepare Statement
+RELEASE SAVEPOINT_postgresql,Release Savepoint
+ROLLBACK TRANSACTION_postgresql,Rollback Transaction
+ROLLBACK TRANSACTION TO SAVEPOINT_postgresql,Rollback Transaction
+COMMIT TRANSACTION_postgresql,Commit Transaction
+SAVEPOINT_postgresql,Savepoint
+CREATE DATABASE_postgresql,Create Database
+CREATE DATABASE_sqlserver,Create Database
+ALTER DATABASE_postgresql,Update Database
+ALTER DATABASE_sqlserver,Update Database
+COMMENT ON DATABASE_postgresql,Annotate Database
+DROP DATABASE_postgresql,Delete Database
+DROP DATABASE_sqlserver,Delete Database
+CREATE USER_postgresql,Create User Account
+CREATE USER (Also: CREATE LOGIN)_sqlserver,Create User Account
+CREATE USER_mongodb,Create User Account
+ALTER USER_postgresql,Modify User Account
+CREATE USER MAPPING_postgresql,Modify User Account
+DROP USER MAPPING_postgresql,Modify User Account
+ALTER USER_mysql,Modify User Account
+ALTER USER_mariadb,Modify User Account
+ALTER USER (or LOGIN)_sqlserver,Modify User Account
+UPDATE USER_mongodb,Modify User Account
+ALTER ACCOUNT_snowflake,Modify User Account
+ALTER INTEGRATION_snowflake,Modify User Account
+ALTER USER_snowflake,Modify User Account
+DROP USER_postgresql,Delete User Account
+DROP USER (or sp_dropuser)_sqlserver,Delete User Account
+DROP USER_mongodb,Delete User Account
+CREATE GROUP_postgresql,Create Group
+ALTER GROUP_postgresql,Modify Group
+DROP GROUP_postgresql,Delete Group
+CREATE ROLE_postgresql,Create Role
+CREATE ROLE_mongodb,Create Role
+ALTER ROLE_postgresql,Modify Role
+UPDATE ROLE_mongodb,Modify Role
+DROP ROLE_postgresql,Delete Role
+DROP ROLE_mongodb,Delete Role
+DROP ALL ROLES FROM DATABASE_mongodb,Delete Role
+GRANT_postgresql,Grant Access
+GRANT_mysql,Grant Access
+GRANT_mariadb,Grant Access
+GRANT_oracle,Grant Access
+GRANT_sqlserver,Grant Access
+GRANT ROLES TO USER_mongodb,Grant Access
+GRANT_dremio,Grant Access
+GRANT_denodo,Grant Access
+GRANT_redshift,Grant Access
+GRANT_snowflake,Grant Access
+PUT BUCKET POLICY_s3,Grant Access
+PUT BUCKET ACL_s3,Grant Access
+PUT OBJECT ACL_s3,Grant Access
+REVOKE_postgresql,Revoke Access
+REVOKE_mysql,Revoke Access
+REVOKE_mariadb,Revoke Access
+REVOKE_oracle,Revoke Access
+REVOKE_sqlserver,Revoke Access
+REVOKE ROLES FROM USER_mongodb,Revoke Access
+REVOKE_dremio,Revoke Access
+REVOKE_denodo,Revoke Access
+REVOKE_redshift,Revoke Access
+REVOKE_snowflake,Revoke Access
+DELETE BUCKET POLICY_s3,Revoke Access
+CHECKPOINT_postgresql,Modify Log
+ALTER LOGFILE GROUP_mysql,Modify Log
+ALTER LOGFILE GROUP_mariadb,Modify Log
+ALTER SYSTEM_postgresql,System Change
+ALTER FOREIGN DATA WRAPPER_postgresql,System Change
+ALTER SERVER_postgresql,System Change
+ALTER TEXT SEARCH CONFIGURATION_postgresql,System Change
+ALTER TEXT SEARCH DICTIONARY_postgresql,System Change
+ALTER TEXT SEARCH PARSER_postgresql,System Change
+ALTER TEXT SEARCH TEMPLATE_postgresql,System Change
+CREATE FOREIGN DATA WRAPPER_postgresql,System Change
+CREATE SERVER_postgresql,System Change
+CREATE TEXT SEARCH CONFIGURATION_postgresql,System Change
+CREATE TEXT SEARCH DICTIONARY_postgresql,System Change
+CREATE TEXT SEARCH PARSER_postgresql,System Change
+CREATE TEXT SEARCH TEMPLATE_postgresql,System Change
+DROP FOREIGN DATA WRAPPER_postgresql,System Change
+DROP SERVER_postgresql,System Change
+DROP TEXT SEARCH CONFIGURATION_postgresql,System Change
+DROP TEXT SEARCH DICTIONARY_postgresql,System Change
+DROP TEXT SEARCH PARSER_postgresql,System Change
+DROP TEXT SEARCH TEMPLATE_postgresql,System Change
+ALTER TABLESPACE_postgresql,System Change
+CREATE TABLESPACE_postgresql,System Change
+DROP TABLESPACE_postgresql,System Change
+RESET_postgresql,System Change
+CREATE CAST_postgresql,Functionality Change
+CREATE EXTENSION_postgresql,Functionality Change
+DROP EXTENSION_postgresql,Functionality Change
+ALTER EXTENSION_postgresql,Functionality Change
+CREATE AGGREGATE_postgresql,Functionality Change
+CREATE COLLATION_postgresql,Functionality Change
+CREATE CONVERSION_postgresql,Functionality Change
+ALTER CONVERSION_postgresql,Functionality Change
+ALTER COLLATION_postgresql,Functionality Change
+ALTER FUNCTION_postgresql,Functionality Change
+ALTER PROCEDURE_postgresql,Functionality Change
+ALTER ROUTINE_postgresql,Functionality Change
+CREATE FUNCTION_postgresql,Functionality Change
+CREATE LANGUAGE_postgresql,Functionality Change
+ALTER OPERATOR_postgresql,Functionality Change
+ALTER OPERATOR CLASS_postgresql,Functionality Change
+ALTER OPERATOR FAMILY_postgresql,Functionality Change
+CREATE OPERATOR_postgresql,Functionality Change
+CREATE OPERATOR CLASS_postgresql,Functionality Change
+CREATE OPERATOR FAMILY_postgresql,Functionality Change
+CREATE PROCEDURE_postgresql,Functionality Change
+CREATE ROUTINE_postgresql,Functionality Change
+CREATE TRANSFORM_postgresql,Functionality Change
+DROP AGGREGATE_postgresql,Functionality Change
+DROP CAST_postgresql,Functionality Change
+DROP COLLATION_postgresql,Functionality Change
+DROP CONVERSION_postgresql,Functionality Change
+DROP FUNCTION_postgresql,Functionality Change
+DROP LANGUAGE_postgresql,Functionality Change
+DROP OPERATOR_postgresql,Functionality Change
+DROP OPERATOR CLASS_postgresql,Functionality Change
+DROP OPERATOR FAMILY_postgresql,Functionality Change
+DROP PROCEDURE_postgresql,Functionality Change
+DROP ROUTINE_postgresql,Functionality Change
+DROP TRANSFORM_postgresql,Functionality Change
+ALTER TYPE_postgresql,Functionality Change
+CREATE TYPE_postgresql,Functionality Change
+DROP TYPE_postgresql,Functionality Change
+ALTER EVENT TRIGGER_postgresql,Alter Trigger
+ALTER TRIGGER_postgresql,Alter Trigger
+CREATE EVENT TRIGGER_postgresql,Create Trigger
+CREATE TRIGGER_postgresql,Create Trigger
+DROP EVENT TRIGGER_postgresql,Delete Trigger
+DROP TRIGGER_postgresql,Delete Trigger
+BACKUP_postgresql,Backup
+CREATE ACCESS METHOD_postgresql,Create Access Method
+PLEASE SEE THE LIST BELOW_s3,Create Access Method
+BINLOG_mysql,binlog
+BINLOG_mariadb,binlog
+FLUSH_mysql,Flush
+FLUSH_mariadb,Flush
+KILL_mysql,Kill
+KILL_mariadb,Kill
+KILL OP_mongodb,Kill
+KILL CURSORS_mongodb,Kill
+RESET_mysql,Reset  
+RESET_mariadb,Reset  
+RESET PERSIST_mysql,Reset Persist
+RESET PERSIST_mariadb,Reset Persist
+RESTART_mysql,Restart
+RESTART_mariadb,Restart
+SHUTDOWN_mysql,Shutdown
+SHUTDOWN_mariadb,Shutdown
+SHUTDOWN_mongodb,Shutdown
