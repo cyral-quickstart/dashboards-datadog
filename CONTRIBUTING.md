@@ -4,38 +4,15 @@ Welcome to our project! We appreciate your interest in contributing. To ensure a
 
 We welcome and appreciate contributions from the community. To contribute to this project, please follow these steps:
 
-1. Fork the project repository by clicking the "Fork" button at the top of the page. This creates a copy of the repository in your own GitHub account.
-2. Clone the repository to your local machine using the git clone command followed by the URL of your forked repository.
-3. Create a new branch for your changes using git checkout -b <branch-name>. Please choose a branch name that is descriptive of the changes you plan to make.
-4. Make your changes to the code or documentation. Please make sure your code follows the project's coding conventions and style guide.
-5. Test your changes thoroughly to ensure that they work as expected.
-6. Commit your changes using git commit -m "Your commit message here". Please make sure your commit message is clear and descriptive.
-7. Push your changes to your forked repository using git push origin <branch-name>.
-8. Open a pull request (PR) by navigating to the original repository and clicking the "New pull request" button. Make sure that your fork and branch are selected, and that you have written a clear description of your changes in the PR message.
-9. Wait for feedback from the project maintainers. They may ask you to make additional changes or provide more information before merging your changes into the main repository.
-10. Once your changes are accepted and merged, you can safely delete your branch both locally and remotely using git branch -d <branch-name> and git push origin --delete <branch-name>.
+1. Fork the project repository
+2. Make your changes to the code or documentation. Please make sure your code follows the project's coding conventions and style guide.
+3. Test your changes thoroughly to ensure that they work as expected.
+4. Open a pull request (PR) and make sure that you have written a clear description of your changes in the PR message.
+5. Wait for feedback from the project maintainers. They may ask you to make additional changes or provide more information before merging your changes into the main repository.
 
 Thank you for contributing to our project!
 
 Please note we have a [code of conduct](#code-of-conduct), please follow it in all your interactions with the project.
-
-
-## Getting started
-
-To get started with this project, follow these steps:
-
-1. Install the required dependencies. Make sure you have all the necessary dependencies installed on your system. Check the project's README file for instructions on how to install any required dependencies.
-2. Fork the repository. Click the "Fork" button on the repository's GitHub page to create your own copy of the project.
-3. Clone the repository. Clone the repository to your local machine using the git clone command followed by the URL of your forked repository.
-4. Create a new branch. Create a new branch for your changes using git checkout -b <branch-name>. Please choose a branch name that is descriptive of the changes you plan to make.
-5. Make changes. Make your changes to the code or documentation. Please make sure your code follows the project's coding conventions and style guide.
-6. Test your changes. Test your changes thoroughly to ensure that they work as expected.
-7. Commit your changes. Commit your changes using git commit -m "Your commit message here". Please make sure your commit message is clear and descriptive.
-8. Push your changes. Push your changes to your forked repository using git push origin <branch-name>.
-9. Open a pull request. Open a pull request (PR) by navigating to the original repository and clicking the "New pull request" button. Make sure that your fork and branch are selected, and that you have written a clear description of your changes in the PR message.
-10. Wait for feedback. Wait for feedback from the project maintainers. They may ask you to make additional changes or provide more information before merging your changes into the main repository.
-11. Stay up-to-date. If your PR is not merged immediately, be sure to keep your local repository up-to-date with the latest changes from the main repository by regularly pulling changes from the original repository to your local repository using git pull upstream main.
-
 
 ## Coding conventions
 
