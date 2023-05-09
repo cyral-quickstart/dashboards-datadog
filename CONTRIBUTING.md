@@ -7,9 +7,8 @@ We welcome and appreciate contributions from the community. To contribute to thi
 1. Fork the project repository
 2. Make your changes to the code or documentation. Please make sure your code follows the project's coding conventions and style guide.
 3. Test your changes thoroughly to ensure that they work as expected.
-4. Commit your changes
-5. Open a pull request (PR) and make sure that you have written a clear description of your changes in the PR message.
-6. Wait for feedback from the project maintainers. They may ask you to make additional changes or provide more information before merging your changes into the main repository.
+4. Open a pull request (PR) and make sure that you have written a clear description of your changes in the PR message.
+5. Wait for feedback from the project maintainers. They may ask you to make additional changes or provide more information before merging your changes into the main repository.
 
 Thank you for contributing to our project!
 
