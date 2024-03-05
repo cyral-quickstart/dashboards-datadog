@@ -12,7 +12,7 @@ These instructions should be followed until we get the app created in Data Dog's
 2. Navigate to Logs -> Configuration -> Pipelines
 3. Click the `New Pipeline` button
 4. Add the following information on the `Create Pipeline` screen
-   - Filter: `source:cyral-*-wire`
+   - Filter: `source:cyral-sidecar`
    - Name: `CyralPipeline`
 5. Click the `Create` button.
 6. Once the `CyralPipeline` pipeline has been created, create the processors listed in the `Processor Creation` section)
